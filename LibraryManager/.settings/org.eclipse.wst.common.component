@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="LibraryManager">
+        <wb-resource deploy-path="/" source-path="/" tag="defaultRootSource"/>
+        <dependent-module archiveName="LibraryManagerWeb.war" deploy-path="/" handle="module:/resource/LibraryManagerWeb/LibraryManagerWeb">
+            <dependent-object>Module_1529503876206</dependent-object>
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="LibraryManagerDataAccess.jar" deploy-path="/lib" handle="module:/resource/LibraryManagerDataAccess/LibraryManagerDataAccess">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="LibraryManagerWebServices.war" deploy-path="/" handle="module:/resource/LibraryManagerWebServices/LibraryManagerWebServices">
+            <dependent-object>Module_1529504038644</dependent-object>
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+    </wb-module>
+</project-modules>
